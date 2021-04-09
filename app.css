@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css?family=Baloo+Bhaijaan|ubuntu');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'ubuntu', sans-serif;
+}
+
+body{
+    background-color: rgb(2, 2, 61);
+
+}
+.wrapper{
+    background-color:blue;
+    width: 500px;
+    padding: 25px;
+    margin: 25px auto 0;
+}
+.wrapper h2{
+    color:white;
+    font-size: 24px;
+    padding: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+    border: 1px dotted white;
+}
+h4{
+    padding-bottom: 5px;
+    color: white;
+}
+.input-group{
+    margin-bottom: 10px;
+    width: 100px;
+    flex-direction: row;
+    display: flex;
+    position: relative;
+    padding: 5px 0;
+}
